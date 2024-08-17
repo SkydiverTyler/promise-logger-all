@@ -1,0 +1,25 @@
+{
+    "name": "promise-logger-all",
+    "version": "1.0.0",
+    "description": "Log the completion progress of `Promise.all(...)` to the console. Useful for long-running or staged promises. ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SkydiverTyler/promise-logger-all.git"
+    },
+    "keywords": [
+        "promise",
+        "async",
+        "logging",
+        "log"
+    ],
+    "author": "Tyler Jones",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/SkydiverTyler/promise-logger-all/issues"
+    },
+    "homepage": "https://github.com/SkydiverTyler/promise-logger-all#readme"
+}
