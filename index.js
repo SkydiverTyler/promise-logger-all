@@ -5,6 +5,17 @@ const BAR_WIDTH = 20;
 
 module.exports = async (label, proms) => {
     let states = [];
+
+    // First param must be a label string
+    if (typeof label !== "string") {
+        throw new Error("The first parameter must be a string");
+    }
+
+    // Second param must be a promise array
+    if (!Array.isArray(proms)) {
+        throw new Error("The second parameter must be an array of Promises");
+    }
+
     proms.map((_) => states.push(CHAR_WAITING));
 
     logStates(label, states);
