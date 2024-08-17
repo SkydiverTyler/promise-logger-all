@@ -3,7 +3,7 @@ const CHAR_SUCCESS = "|";
 const CHAR_FAILURE = "X";
 const BAR_WIDTH = 20;
 
-export const promiseLoggerAll = async (label, proms) => {
+export default async (label, proms) => {
     let states = [];
     proms.map((_) => states.push(CHAR_WAITING));
 

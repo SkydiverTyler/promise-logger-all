@@ -1,6 +1,6 @@
 {
     "name": "promise-logger-all",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "Log the completion progress of `Promise.all(...)` to the console. Useful for long-running or staged promises. ",
     "main": "index.js",
     "scripts": {
