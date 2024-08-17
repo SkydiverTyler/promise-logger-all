@@ -3,7 +3,7 @@ const CHAR_SUCCESS = "|";
 const CHAR_FAILURE = "X";
 const BAR_WIDTH = 20;
 
-export default async (label, proms) => {
+module.exports = async (label, proms) => {
     let states = [];
     proms.map((_) => states.push(CHAR_WAITING));
 
